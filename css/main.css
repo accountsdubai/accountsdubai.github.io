@@ -1645,7 +1645,7 @@ input::-moz-focus-inner {
 .s-header.sticky {
   position: fixed;
   top: 0;
-  background-color: #000000 !important;
+  background-color: #414042 !important;
   opacity: 0;
   visibility: hidden;
   z-index: 600;
@@ -1812,7 +1812,7 @@ input::-moz-focus-inner {
 .header-nav-wrap {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: absolute;
@@ -1891,7 +1891,7 @@ input::-moz-focus-inner {
     right: auto;
     top: 0;
     left: 0;
-    background-color: #000000;
+    background-color: #414042;
     padding: 120px 40px 21px;
   }
 
