@@ -1860,7 +1860,7 @@ input::-moz-focus-inner {
 
   .header-logo {
     left: 40px;
-    top: 3rem;
+    top:1.5rem;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
