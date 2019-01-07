@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Allow: /tally.html
+
+Sitemap: https://accountsdubai.github.io/sitemap.xml
