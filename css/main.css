@@ -3428,6 +3428,7 @@ html.no-csstransitions .home-content__main {
   float: left;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 .snip1214 * {
   -webkit-box-sizing: border-box;
@@ -3449,6 +3450,11 @@ html.no-csstransitions .home-content__main {
   background-color: #222f3d;
   color: #ffffff;
   text-transform: uppercase;
+  border-radius: 10px;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+
+}
 }
 .snip1214 .plan-cost {
   padding: 0px 10px 20px;
