@@ -1610,6 +1610,96 @@ input::-moz-focus-inner {
 
 }
 
+/*  display small
+====================================================== */
+@media only screen and (max-width:1300px) {
+  .display-1 {
+    font-size: 3.6rem;
+  }
+
+  .section-header .display-1,
+  .section-header p.lead {
+    padding-left: 0;
+    padding-right: 3rem;
+  }
+
+}
+
+@media only screen and (max-width:1200px) {
+  .display-1 {
+    font-size: 3.2rem;
+  }
+
+}
+
+@media only screen and (max-width:900px) {
+  .display-1 {
+    font-size: 3rem;
+  }
+
+  .subhead {
+    font-size: 1.5rem;
+  }
+
+  .section-header .display-1,
+  .section-header p.lead {
+    padding-right: 0;
+  }
+
+}
+
+@media only screen and (max-width:800px) {
+  .display-1 {
+    font-size: 2.8rem;
+  }
+
+}
+
+@media only screen and (max-width:700px) {
+  .display-1 {
+    font-size: 2.6rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .subhead {
+    margin-bottom: 2.4rem;
+  }
+
+}
+
+@media only screen and (max-width:600px) {
+  .display-1 {
+    font-size: 2.5rem;
+  }
+
+}
+
+@media only screen and (max-width:500px) {
+  .display-1 {
+    font-size: 2rem;
+  }
+
+  .subhead {
+    font-size: 1.4rem;
+  }
+
+  .subhead::before {
+    padding-right: 45px;
+  }
+
+  .subhead::after {
+    width: 2.5rem;
+    left: 3.5rem;
+  }
+
+}
+
+@media only screen and (max-width:400px) {
+  .display-1 {
+    font-size: 2rem;
+  }
+
+}
 
 
 /* ===================================================================
@@ -2307,7 +2397,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1600px) {
   .home-content h1 {
-    font-size: 6.4rem;
+    font-size: 5.3rem;
   }
 
   .home-content__video {
@@ -3597,11 +3687,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-infos {
-  margin-top: 12rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
-  font-size: 2.8rem;
+  font-size: 2.1rem;
   line-height: 1.714;
   color: white;
 }
