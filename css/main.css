@@ -1,6 +1,6 @@
 /* =================================================================== 
  *
- *  Stellar v1.0 Main Stylesheet
+ *  Accounts Dubai v1.0 Main Stylesheet
  *  05-22-2018
  *  ------------------------------------------------------------------
  *
@@ -189,7 +189,7 @@ p img {
 p.lead {
   font-family: "Merriweather", serif;
   font-weight: 300;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1.875;
   margin-bottom: 3.6rem;
   color: rgba(0, 0, 0, 0.45);
@@ -197,21 +197,21 @@ p.lead {
 
 @media only screen and (max-width:1200px) {
   p.lead {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
 }
 
 @media only screen and (max-width:1000px) {
   p.lead {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
   }
 
 }
 
 @media only screen and (max-width:800px) {
   p.lead {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
 }
@@ -1411,7 +1411,7 @@ input::-moz-focus-inner {
 .display-1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 4.6rem;
+  font-size: 3rem;
   line-height: 1.5;
   letter-spacing: -0.03rem;
   margin-top: 0;
@@ -1523,100 +1523,9 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1300px) {
   .display-1 {
-    font-size: 4.5rem;
-  }
-
-  .section-header .display-1,
-  .section-header p.lead {
-    padding-left: 0;
-    padding-right: 3rem;
-  }
-
-}
-
-@media only screen and (max-width:1200px) {
-  .display-1 {
-    font-size: 4.2rem;
-  }
-
-}
-
-@media only screen and (max-width:900px) {
-  .display-1 {
-    font-size: 4rem;
-  }
-
-  .subhead {
-    font-size: 1.5rem;
-  }
-
-  .section-header .display-1,
-  .section-header p.lead {
-    padding-right: 0;
-  }
-
-}
-
-@media only screen and (max-width:800px) {
-  .display-1 {
-    font-size: 3.8rem;
-  }
-
-}
-
-@media only screen and (max-width:700px) {
-  .display-1 {
-    font-size: 3.6rem;
-    margin-bottom: 3.6rem;
-  }
-
-  .subhead {
-    margin-bottom: 2.4rem;
-  }
-
-}
-
-@media only screen and (max-width:600px) {
-  .display-1 {
-    font-size: 3.5rem;
-  }
-
-}
-
-@media only screen and (max-width:500px) {
-  .display-1 {
     font-size: 3rem;
   }
 
-  .subhead {
-    font-size: 1.4rem;
-  }
-
-  .subhead::before {
-    padding-right: 45px;
-  }
-
-  .subhead::after {
-    width: 2.5rem;
-    left: 3.5rem;
-  }
-
-}
-
-@media only screen and (max-width:400px) {
-  .display-1 {
-    font-size: 2.8rem;
-  }
-
-}
-
-/*  display small
-====================================================== */
-@media only screen and (max-width:1300px) {
-  .display-1 {
-    font-size: 3.6rem;
-  }
-
   .section-header .display-1,
   .section-header p.lead {
     padding-left: 0;
@@ -1627,7 +1536,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:1200px) {
   .display-1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 
 }
@@ -1669,7 +1578,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:600px) {
   .display-1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
 }
@@ -1696,6 +1605,97 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:400px) {
   .display-1 {
+    font-size: 2.2rem;
+  }
+
+}
+
+/*  display small
+====================================================== */
+@media only screen and (max-width:1300px) {
+  .display-2 {
+    font-size: 3.6rem;
+  }
+
+  .section-header .display-1,
+  .section-header p.lead {
+    padding-left: 0;
+    padding-right: 3rem;
+  }
+
+}
+
+@media only screen and (max-width:1200px) {
+  .display-2 {
+    font-size: 3.2rem;
+  }
+
+}
+
+@media only screen and (max-width:900px) {
+  .display-2 {
+    font-size: 3rem;
+  }
+
+  .subhead {
+    font-size: 1.5rem;
+  }
+
+  .section-header .display-2,
+  .section-header p.lead {
+    padding-right: 0;
+  }
+
+}
+
+@media only screen and (max-width:800px) {
+  .display-2 {
+    font-size: 2.8rem;
+  }
+
+}
+
+@media only screen and (max-width:700px) {
+  .display-2 {
+    font-size: 2.6rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .subhead {
+    margin-bottom: 2.4rem;
+  }
+
+}
+
+@media only screen and (max-width:600px) {
+  .display-2 {
+    font-size: 2.5rem;
+  }
+
+}
+
+@media only screen and (max-width:500px) {
+  .display-2 {
+    font-size: 2rem;
+  }
+
+  .subhead {
+    font-size: 1.4rem;
+  }
+
+  .subhead::before {
+    padding-right: 45px;
+  }
+
+  .subhead::after {
+    width: 2.5rem;
+    left: 3.5rem;
+  }
+
+}
+
+@media only screen and (max-width:400px) {
+  .display-2 {
     font-size: 2rem;
   }
 
@@ -2605,7 +2605,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 18rem;
+  padding-top: 10rem;
   padding-bottom: 18rem;
   background-color: #FFFFFF;
   position: relative;
@@ -2676,7 +2676,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
   .s-about {
-    padding-top: 16.2rem;
+    padding-top: 10rem;
     padding-bottom: 16.2rem;
   }
 
@@ -2747,7 +2747,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 18rem;
+  padding-top: 10rem;
   padding-bottom: 18rem;
   background-color: #151515;
   background-repeat: no-repeat;
@@ -2825,7 +2825,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
   .s-services {
-    padding-top: 16.2rem;
+    padding-top: 12rem;
     padding-bottom: 16.2rem;
   }
 
@@ -2852,7 +2852,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-  padding-top: 18rem;
+  padding-top: 8rem;
   padding-bottom: 18rem;
   background-color: #FFFFFF;
   position: relative;
