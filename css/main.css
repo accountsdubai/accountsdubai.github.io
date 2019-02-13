@@ -2061,6 +2061,7 @@ input::-moz-focus-inner {
   background-color: transparent;
   position: relative;
   display: table;
+  
 }
 
 .s-home::before {
