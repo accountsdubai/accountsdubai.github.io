@@ -2607,7 +2607,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-about {
   padding-top: 10rem;
-  padding-bottom: 18rem;
+  padding-bottom: 8rem;
   background-color: #FFFFFF;
   position: relative;
 }
@@ -2670,6 +2670,22 @@ html.no-csstransitions .home-content__main {
   background-image: url(../images/icons/icon-documentation.svg);
 }
 
+/*================================================================*/
+.about-process .item-process__header--planning2::before {
+  background-image: url(https://tallysolutions.com/mena/wp-content/uploads/2018/02/simplicity-icon.png);
+}
+
+.about-process .item-process__header--branding2::before {
+  background-image: url(https://tallysolutions.com/mena/wp-content/uploads/2018/02/speed-icon.png);
+}
+
+.about-process .item-process__header--implementation2::before {
+  background-image: url(https://tallysolutions.com/mena/wp-content/uploads/2018/02/reliability-icon.png);
+}
+
+.about-process .item-process__header--documentation2::before {
+  background-image: url(https://tallysolutions.com/mena/wp-content/uploads/2018/02/flexibility-icon.png);
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
