@@ -1763,6 +1763,71 @@ input::-moz-focus-inner {
   visibility: visible;
 }
 
+
+
+/*-------------------------------------------------Header2-------------*/
+.s-header2 {
+  width: 100%;
+  height: 72px;
+  background-color: transparent;
+  position: absolute;
+  top: 4.2rem;
+  z-index: 500;
+}
+
+.s-header2 > .row {
+  position: relative;
+  height: 72px;
+  max-width: 1400px;
+}
+
+.s-header2.offset {
+  -webkit-transform: translate3d(0, -100%, 0);
+  -ms-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.s-header2.scrolling {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+
+
+.s-header2.sticky {
+  position: fixed;
+  top: 0;
+  background-color: #252875 !important;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 600;
+}
+
+.s-header2.sticky > .row {
+  max-width: 1200px;
+}
+
+.s-header2.sticky .header-logo {
+  padding-left: 20px;
+}
+
+.s-header2.sticky .header-nav-wrap {
+  top: 0;
+  right: 20px;
+  left: auto;
+}
+
+.s-header2.sticky.scrolling {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
 /* -------------------------------------------------------------------
  * ## header logo 
  * ------------------------------------------------------------------- */
@@ -1874,6 +1939,10 @@ input::-moz-focus-inner {
 .s-header.sticky .header-menu-toggle {
   top: 12px;
 }
+.s-header2.sticky .header-menu-toggle {
+  top: 12px;
+}
+
 
 .header-menu-toggle.is-clicked span {
   background-color: rgba(255, 255, 255, 0);
@@ -1951,6 +2020,14 @@ input::-moz-focus-inner {
     max-width: none;
     width: auto;
   }
+  .s-header2 {
+    top: 0;
+  }
+
+  .s-heade2r > .row {
+    max-width: none;
+    width: auto;
+  }
 
   .header-logo {
     left: 40px;
@@ -1973,6 +2050,14 @@ input::-moz-focus-inner {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+  .s-header2.sticky .header-logo {
+    top: 50%;
+    left: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
 
   .header-menu-toggle {
     top: 3rem;
@@ -2012,6 +2097,9 @@ input::-moz-focus-inner {
   .s-header.sticky .header-nav-wrap {
     right: 0;
   }
+  .s-header2.sticky .header-nav-wrap {
+    right: 0;
+  }
 
   .header-menu-toggle {
     display: block;
@@ -2025,6 +2113,9 @@ input::-moz-focus-inner {
   }
 
   .s-header.sticky .header-logo {
+    left: 10px;
+  }
+  .s-header2.sticky .header-logo {
     left: 10px;
   }
 
