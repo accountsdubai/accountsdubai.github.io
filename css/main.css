@@ -2500,18 +2500,18 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1400px) {
   .home-content h1 {
-    font-size: 5.5rem;
+    font-size: 4.6rem;
   }
 
 }
 
 @media only screen and (max-width:1200px) {
   .home-content h1 {
-    font-size: 5.0rem;
+    font-size: 4.4rem;
   }
 
   .home-content__main {
-    padding-right: 6rem;
+    padding-right: 5.7rem;
   }
 
   .home-content__button,
@@ -2546,7 +2546,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1000px) {
   .home-content h1 {
-    font-size: 4.9rem;
+    font-size: 4.2;
   }
 
   .home-social i {
@@ -2564,7 +2564,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:800px) {
   .home-content h1 {
-    font-size: 5rem;
+    font-size: 4.7rem;
   }
 
   .home-content__main {
@@ -2600,7 +2600,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:700px) {
   .home-content h1 {
-    font-size: 4.8rem;
+    font-size: 4.5rem;
   }
 
   .home-content__main {
