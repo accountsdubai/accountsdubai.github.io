@@ -1464,14 +1464,14 @@ input::-moz-focus-inner {
 }
 
 .section-header .lead-light {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.897);
 }
 
 .btn-animatedbg {
   position: relative;
   background: transparent !important;
   border-color:#17a636 !important;
-  color: #FFFFFF !important;
+  color: #000000 !important;
   height: 6.6rem;
   line-height: 6.2rem;
   padding: 0 8rem 0 4rem;
@@ -1709,7 +1709,7 @@ input::-moz-focus-inner {
 .s-header {
   width: 100%;
   height: 72px;
-  background-color: transparent;
+  background-color: #000c;
   position: absolute;
   top: 4.2rem;
   z-index: 500;
@@ -2174,7 +2174,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100%;
   opacity: 1.0;
-  background:linear-gradient(to bottom, #568ada 0%, rgba(255, 255, 255, 0.92) 100%)
+  background:linear-gradient(to bottom, #ffffff 0%, #ffffff 100%)
 }
 
 .no-js .s-home {
@@ -2290,7 +2290,7 @@ input::-moz-focus-inner {
   text-transform: uppercase;
   letter-spacing: .35rem;
   text-align: left;
-  color: #FFFFFF;
+  color: #030303;
   position: relative;
   padding-right: 200px;
 }
@@ -2857,13 +2857,13 @@ html.no-csstransitions .home-content__main {
 .s-services {
   padding-top: 10rem;
   padding-bottom: 18rem;
-  background-color: #151515;
+  background-color: #0d42e0;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../images/services-bg.jpg);
+  /* background-image: url(../images/services-bg.jpg); */
   background-size: cover;
   position: relative;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
 }
 
 .s-tax {
