@@ -1444,7 +1444,7 @@ input::-moz-focus-inner {
 .subhead::after {
   content: "";
   display: block;
-  background-color:#17a636;
+  background-color:#689bd7;
   height: 1px;
   margin-top: -1px;
   width: 4.5rem;
@@ -3470,10 +3470,7 @@ html.no-csstransitions .home-content__main {
  * responsive:
  * clients
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:1200px) {
-  padding-top: 16.2rem;
-  padding-bottom: 16.2rem;
-}
+
 
 @media only screen and (max-width:1000px) {
   .item-client {
