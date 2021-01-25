@@ -35,7 +35,7 @@ background-size: cover;background-position: bottom center;padding: 30px 0;}
 #navbar-template #navbar-custom{background-color: transparent; border-bottom:0;}
 .activebg{background-color:#ffffff !important;border-bottom:1px solid rgba(175,188,205,.12) !important;}
 .grad-btn {position: relative;}
-.banner-headings {color: #000000;font-size:4.5rem;}
+.banner-headings {color: #000000;font-size:2.5rem;}
 .banner-sub-headings {font-size: 1.2rem!important;}
 .btnbtn .badge-btn {color: #fff;background-color: #FF2507;border-radius: 17px;padding: 10px 6px;text-transform: uppercase;position: inherit;margin: 2px 10px 2px 2px;}
 .btn-notify{background-color: #43596C;padding:0;border-radius: 20px; text-align:left;margin: 0 0 20px 0;font-size: 13px;font-weight: normal;}
@@ -76,14 +76,14 @@ background-size: cover;background-position: bottom center;padding: 30px 0;}
 .free-trial a{font-size: 10px!important;}
 }
 @media screen and (max-width: 576px){
-.banner-headings {font-size:3.5rem;}
+.banner-headings {font-size:1.5rem;}
 .headings {font-size: 30px;}
 .drive-us{padding-bottom: 40px;margin-top: 0;}
 .drive-us .card {text-align: center;}
 .card-text {text-align: center!important;}
 .tally-prime-sec .headings{padding-top: 40px;}
 .our-products h2, .trust-us h2 {text-align: center;}
-.drive-img1{padding-top: 50px;}
+/* .drive-img1{padding-top: 50px;} */
 .tpfeature {width: 62%;}
 .our-products .card .card-body {text-align:center;}
 .next-smbl{display:block;}
