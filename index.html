@@ -148,10 +148,10 @@
                      <div class="collapse navbar-collapse collapse-custom" id="navbarSupportedContent">
                          <ul class="navbar-nav navbar-nav-custom ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#home">Home </a>
+                                <a class="nav-link" href="#home" onclick="closemenuFunc()">Home </a>
                             </li>
                              <li class="nav-item">
-                                 <a class="nav-link" href="#services">Service </a>
+                                 <a class="nav-link" href="#services" onclick="closemenuFunc()">Service </a>
                              </li>
                               <li class="nav-item dropdown">
                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -752,6 +752,12 @@
         
         </footer>
         </section>
+        <script type="text/javascript">
+            function closemenuFunc()
+            {
+                document.getElementById("nav-toggler").click();
+            }
         
+        </script>
         </body>
         </html>
